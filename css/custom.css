@@ -1,0 +1,16 @@
+#parentcontainer{
+    background-color: aquamarine;
+}
+
+#leftbox {
+    background-color:white;
+    border-top-left-radius:1em;
+    border-bottom-left-radius:1em;
+}
+
+#rightbox{
+    background-color:blue;
+    color:white;
+    border-top-right-radius:1em;
+    border-bottom-right-radius:1em;
+}

@@ -171,7 +171,7 @@ if (isset($_POST['submit'])) {
             if (name == "") {
                 namep = "Please enter your firstname"
                 $('#valid-firstname').text(namep);
-            } else if (!Checklength(name, [4, 20]) || !validatealpha(name))
+            } else if (!Checklength(name, [5, 20]) || !validatealpha(name))
                 namep = "invalid-name"
             $('#valid-firstname').text(namep);
 
@@ -181,7 +181,7 @@ if (isset($_POST['submit'])) {
             if (name01 == "") {
                 namep01 = "Please enter your lastname"
                 $('#valid-lastname').text(namep01);
-            } else if (!Checklength(name01, [4, 20]) || !validatealpha(name01))
+            } else if (!Checklength(name01, [5, 20]) || !validatealpha(name01))
                 namep01 = "invalid-name"
             $('#valid-lastname').text(namep01);
 
